@@ -1,4 +1,6 @@
-﻿
+﻿body{
+    overflow: hidden;
+}
 * {
     margin: 0;
     padding: 0;
@@ -154,6 +156,11 @@
 @media all and (max-width: 800px) {
     .main-container .search-bar input{
         width: 30rem;
+    }
+}
+@media all and (max-width: 500px) {
+    .main-container .search-bar input {
+        width: 25rem;
     }
 }
 
